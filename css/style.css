@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+
+	height: 5000px;
+}
+
+.navbar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-evenly;
+	text-transform: capitalize;
+	background-color: #333;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.navbar li {
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+	transition: all .4s ease-in-out;
+}
+
+.navbar li.active {
+	color: #333;
+	border-radius: 10px;
+    background-color: yellow;
+}
+
+.block {
+	background-color: grey;
+	height: 1000px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	margin-top: 50px;
+	line-height: 1000px;
+}
